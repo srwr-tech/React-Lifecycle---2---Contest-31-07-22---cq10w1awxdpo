@@ -5,7 +5,7 @@ import '../styles/App.css';
 
 class App extends React.Component {
 
-  handleClick(){
+  handleClick(event){
     this.setState(state=>({count: this.state.count+1})
   }
   constructor(props){
